@@ -1,0 +1,20 @@
+name = "Drupal Bootstrap"
+description = "A mobile responsive theme"
+version = "1.0"
+core = "7.x"
+engine = "phptemplate"
+
+
+stylesheets[all][] = "css/custom.css"
+stylesheets[all][] = "css/bootstrap.min.css"
+
+scripts[] = "js/bootstrap.min.js"
+scripts[] = "js/custom.js"
+
+regions[top] = Header
+regions[navigation] = Navigation
+regions[carousel] = Carousel
+regions[right] = Right
+regions[left] = Left
+regions[homepage] = Homepage Block
+regions[footer] = Footer
